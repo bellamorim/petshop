@@ -57,7 +57,7 @@ class BreedsController < ApplicationController
     @breed.destroy
     respond_to do |format|
       format.html { redirect_to breeds_url, notice: 'Breed was successfully destroyed.' }
-      format.json { head :no_content }
+      format.json { head :no_content }  
     end
   end
 
@@ -69,6 +69,6 @@ class BreedsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def breed_params
-      params.require(:breed).permit(:nome)
+      params.require(:breed).permit(:nome, :detail)
     end
 end

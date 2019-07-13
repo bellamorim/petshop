@@ -1,9 +1,27 @@
-<p id="notice"><%= notice %></p>
+<p id="nome">
 
-<p> Isabel </p>
-  <strong>Nome:</strong> <br><br><br>
+  <strong>Nome</strong> <br>
   <h1><%= @breed.nome %></h1>
 </p>
 
-<%= link_to 'Edit', edit_breed_path(@breed) %> |
-<%= link_to 'Back', breeds_path %>
+
+<p id="detalhe">
+
+
+<strong>Detalhe</strong> <br>
+  <h1><%= @breed.detail %></h1>
+</p>
+
+<%= link_to 'Edit', edit_breed_path(@breed), class: "btn btn-warning" %> |
+<%= link_to 'Back', breeds_path, class: "btn btn-warning" %>
+
+
+
+<div class="titulo">
+  Petshop de Bells
+ </div>
+<div class="descricao">
+  Petshop com produtos veganos!
+ 
+</div>
+<h2> </h2>

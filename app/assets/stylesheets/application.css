@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+h1{
+    color: black;
+    border-block-end-color:blueviolet;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+   
+}
+
+
+.titulo{
+    color:orange; 
+    margin:10px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.descricao{
+    color: brown;
+    margin:10px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+#detalhe{
+    font-size: 20px;
+    margin:0px;
+
+}
+#nome{
+    font-size: 20px;
+    margin:0px;
+}
